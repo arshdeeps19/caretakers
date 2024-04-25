@@ -1,0 +1,31 @@
+/* EventItem.scss */
+.event-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.event-item h3, .event-item p {
+  width: 100%; /* Make sure the text spans the full width of the container */
+  margin-top: 0;
+}
+.event-item h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.event-item p {
+  color: #666;
+  line-height: 1.5;
+}/*# sourceMappingURL=EventItem.css.map */

@@ -1,0 +1,146 @@
+/* Login.css */
+.login-btn {
+  border: none;
+  outline: none;
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #008ba3;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.show-popup {
+  display: block;
+}
+
+.form-popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.form-content h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.input-field label {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 5px;
+  background-color: #fff;
+  transition: top 0.3s, font-size 0.3s;
+  color: #aaa;
+}
+
+.input-field input:focus + label,
+.input-field input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.input-field input:focus {
+  border-color: #00bcd4;
+}
+
+.form-popup a {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.form-popup a:hover {
+  text-decoration: underline;
+}
+
+.form-popup button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.form-popup button:hover {
+  background-color: #008ba3;
+}
+
+.bottom-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.bottom-link a {
+  color: #00bcd4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bottom-link a:hover {
+  text-decoration: underline;
+}
+
+.blur-bg-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+}
+
+.blur-bg-overlay.show {
+  display: block;
+}

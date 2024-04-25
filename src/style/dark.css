@@ -1,0 +1,56 @@
+.app.dark {
+  background-color: #111111;
+  color: rgb(156, 156, 156);
+}
+.app.dark .navbarContainer {
+  background-color: #111111;
+  color: rgb(156, 156, 156);
+  border-bottom: 0.5px solid rgb(156, 156, 156);
+}
+.app.dark .navbarContainer .logo {
+  color: rgb(156, 156, 156);
+}
+.app.dark .navbarContainer .navbarLink {
+  color: rgb(156, 156, 156);
+}
+.app.dark .navbarContainer .searchInput {
+  color: #000000;
+}
+.app.dark .sidebar {
+  background-color: #111111;
+  color: rgb(156, 156, 156);
+}
+.app.dark .sidebar .sidebarButton {
+  background-color: rgb(156, 156, 156);
+  color: #000000;
+}
+.app.dark .menuLink:hover {
+  background-color: rgba(98, 97, 97, 0.3);
+}
+.app.dark .sidebarFriendName {
+  color: rgb(156, 156, 156);
+}
+.app.dark .feed {
+  background-color: #111111;
+  color: rgb(156, 156, 156);
+}
+.app.dark .feed .shareInput {
+  color: rgb(156, 156, 156);
+}
+.app.dark .rightbar {
+  background-color: #111111;
+}
+.app.dark .rightbar .rightbarUsername {
+  color: rgb(156, 156, 156);
+}
+.app.dark .editButton {
+  background-color: rgb(156, 156, 156);
+  color: #000000;
+}
+.app.dark .editProfile .bottom .right form input {
+  color: rgb(156, 156, 156);
+}
+.app.dark .editProfile .bottom .right form .updateButton {
+  background-color: rgb(156, 156, 156);
+  color: #000000;
+}/*# sourceMappingURL=dark.css.map */

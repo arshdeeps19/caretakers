@@ -1,0 +1,118 @@
+/* Eventcard.scss */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+.events-page {
+  background-color: #e0f2f1;
+  padding: 20px;
+  text-align: center; /* Center align the text */
+}
+.events-page h1 {
+  font-size: 3rem; /* Increase the size of the heading */
+  color: #2c3e50; /* Give it a nice color */
+  margin-bottom: 1rem; /* Add some space below the heading */
+  text-transform: uppercase; /* UPPERCASE the text */
+  letter-spacing: 2px; /* Increase spacing between letters for a more dramatic effect */
+  font-weight: bold; /* Make the font bold */
+}
+
+.events-heading {
+  text-align: center; /* Center the heading text */
+  font-size: 2.5rem; /* Make the text larger */
+  color: #2c3e50; /* A darker shade of blue for contrast */
+  margin-bottom: 1rem; /* Add some space below the heading */
+  font-weight: bold; /* Make the font bold */
+  text-transform: uppercase; /* Optional: UPPERCASE text */
+  letter-spacing: 3px; /* Increase spacing between letters */
+  font-family: "Open+Sans", sans-serif;
+  font-size: 2.5em; /* Increase the size of the heading */
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.events-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.events-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+  margin-bottom: auto;
+  flex-grow: 0;
+}
+
+selected-event-detail {
+  flex-grow: 1;
+  width: auto;
+  max-width: 600px; 
+  margin: 0 20px; 
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+}
+
+.selected-event-detail img {
+  max-width: 100%; 
+  max-height: 200px; 
+  object-fit: cover; 
+  margin-top: 20px; 
+}
+
+
+.selected-event:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.events-image-container {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-around; 
+}
+
+.event-image,
+.additional-image {
+  width: 100%; 
+  max-height: 200px; 
+  object-fit: contain; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+}
+.image-description {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.side-image {
+  width: 100%; 
+  height: auto; 
+  margin-top: 10px; 
+  border-radius: 5px; 
+}
+
+.constant-images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  flex-grow: 0;
+}
+
